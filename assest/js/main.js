@@ -2,12 +2,13 @@ $(".owl-1").owlCarousel({
   margin: 10,
   loop: true,
   dots: false,
+  center: true,
   autoplay: true,
   autoplayTimeout: 5000,
   autoplayHoverPause: false,
   responsive: {
     0: {
-      items: 2,
+      items: 3,
     },
     600: {
       items: 3,
@@ -17,6 +18,7 @@ $(".owl-1").owlCarousel({
     },
   },
 });
+
 
 $(".owl-2").owlCarousel({
   margin: 10,
