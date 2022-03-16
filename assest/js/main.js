@@ -80,11 +80,6 @@ $(".owl-part").owlCarousel({
   },
 });
 
-// Tilt
-$('.card').tilt({
-  glare: true,
-  maxGlare: .5,
-})
 
 // Back To top
 let myTopButton = document.querySelector('.back-to-top');

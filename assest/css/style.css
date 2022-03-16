@@ -236,9 +236,9 @@ ul {
   .header .nav-links ul {
     position: absolute;
     left: 0;
-    top: 80px;
+    top: 79px;
     background-color: #121212;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -334,6 +334,9 @@ ul {
   width: 50%;
   margin: 0 auto;
 }
+.owl-services-card .icon img {
+  width: 90px !important;
+}
 @media (max-width: 768px) {
   .services .services-desc {
     width: 100%;
@@ -367,7 +370,8 @@ ul {
   transform: scale(0.95);
 }
 .owl-services-card .icon img {
-  width: 70px;
+  width: 70% !important;
+  height: auto !important;
 }
 .owl-services-card .desc {
   height: 85px;
@@ -708,8 +712,9 @@ ul {
   .partners .main-title {
     font-size: 50px;
   }
-  .partners-logos {
-    /* grid-template-columns: repeat(2, 1fr); */
+  .partner {
+    /* height: 100%; */
+    /* width: 100%; */
   }
 }
 /* End partners */
@@ -956,7 +961,8 @@ input[type="checkbox"] {
     width: 80px;
     height: 80px;
   }
-  .owl-carousel img {
+  .owl-2 img,
+  .owl-1 img {
     width: 50px;
     height: 50px;
   }
