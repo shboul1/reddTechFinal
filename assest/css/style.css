@@ -643,7 +643,7 @@ ul {
   transform: scale(0.95);
 }
 .owl-pre-serv-card .icon img {
-  width: 70px;
+  width: 80px;
 }
 .owl-pre-serv-card .desc {
   height: 60px;
@@ -655,6 +655,9 @@ ul {
   .owl-pre-serv-card .desc {
     font-size: 15px;
     height: 70px;
+  }
+  .owl-pre-serv-card .icon img {
+    width: 50px;
   }
 }
 /* End premuim services */
