@@ -380,6 +380,9 @@ ul {
   cursor: pointer;
   transition: 0.3s;
 }
+.more-info a {
+  color: inherit;
+}
 .more-info:hover{
   transform: scale(0.98);
 }
@@ -390,6 +393,7 @@ ul {
 .more-info.white {
   background-color: #fff;
   color: #21bbed;
+  margin-top: 60px !important;
 }
 
 
