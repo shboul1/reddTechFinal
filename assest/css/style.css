@@ -847,11 +847,13 @@ ul {
 }
 @media (max-width: 768px) {
   .footer .container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
   }
   .footer .brand-info {
-    font-size: 16px;
+    display: none;
   }
   .footer .brand-info p {
     margin-top: 20px;
@@ -860,8 +862,8 @@ ul {
     margin-top: 30px;
   }
   .copyright span {
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 13px;
+    margin-top: 10px;
   }
   .footer .brand-white-logo img {
     width: 200px;
@@ -870,7 +872,11 @@ ul {
     margin-top:  0;
   }
   .footer-contact-info {
-    margin-top: 20px;
+    margin-top: 0px;
+    font-size: 14px;
+  }
+  .footer-contact-info span {
+    width: inherit;
   }
 }
 /* End Footer */
