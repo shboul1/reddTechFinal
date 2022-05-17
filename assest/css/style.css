@@ -295,7 +295,7 @@ ul {
   .landing video {
     height: inherit;
     margin-top: 0px;
-    aspect-ratio: 16/9;
+    aspect-ratio: 11/9;
   }
 }
 /* End Landing */
@@ -755,7 +755,7 @@ ul {
 .footer {
   /* padding-top: var(--section-padding); */
   /* padding-bottom: var(--section-padding); */
-  padding: 30px 0;
+  padding: 5px 0;
   background-color: #1a1a1a;
   position: relative;
   z-index: 2;
@@ -780,24 +780,22 @@ ul {
   align-items: center;
 }
 .footer .brand-white-logo img {
-  width: 300px;
+  width: 220px;
   margin-bottom: 30px;
 }
 .footer .brand-info {
   color: var(--main-color);
-  font-size: 18px;
+  font-size: 15px;
   font-family: "AxiLight";
 }
-.footer .brand-info p {
-  margin-top: 40px;
-}
+
 .brand-website {
   color: var(--main-color);
   font-weight: bold;
 }
 .footer-contact-info {
   color: var(--main-color);
-  font-size: 18px;
+  font-size: 15px;
   margin-top: 40px;
   font-family: "AxiLight";
 }
@@ -806,7 +804,7 @@ ul {
   display: inline-block;
 }
 .footer .email {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .footer .social-media {
   display: flex;
@@ -831,16 +829,14 @@ ul {
   transform: scale(0.95);
 }
 .copyright {
-  margin-top: 50px;
+  margin-top: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
 }
 .copyright span {
-  height: 25px;
-  margin-top: 4px;
   font-weight: bold;
 }
 .copyright img {
@@ -849,37 +845,39 @@ ul {
   height: 25px;
 }
 @media (max-width: 768px) {
+  .footer {
+    padding: 15px 0;
+  }
   .footer .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-  }
-  .footer .brand-info {
+    align-items: inherit;
   }
   .footer .brand-info p {
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 0px;
   }
   .copyright {
     margin-top:15px;
   }
-  .copyright span {
-    font-size: 16px;
-    margin-top: 8px;
-  }
   .footer .brand-white-logo img {
     width: 200px;
+    margin-bottom: 10px;
   }
   .footer .email {
     margin-top:  0;
   }
   .footer-contact-info {
     margin-top: 0px;
-    font-size: 14px;
+    font-size: 13px;
   }
   .footer-contact-info span {
     width: inherit;
+  }
+  .copyright {
+    justify-content: start;
+    padding: 0 30px;
   }
 }
 /* End Footer */
@@ -1006,7 +1004,7 @@ input[type="checkbox"] {
     font-size: 15px;
   }
   .footer .social-media {
-    justify-content: center;
+    justify-content: start;
   }
 }
 /* End Contact us */
