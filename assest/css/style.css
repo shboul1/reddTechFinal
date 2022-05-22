@@ -1043,3 +1043,39 @@ input[type="checkbox"] {
     margin-bottom: 40px !important;
   }
 }
+
+.thanks-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.thanks-container::before {
+  content: "";
+  background: url(/assest/images/Untitled-1.webp);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: 100%;
+  opacity: 0.3;
+  z-index: -1;
+}
+.thanks-container svg {
+  max-width: 400px;
+  max-height: 400px;
+}
+.thanks-container span {
+  font-size: 14px;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .thanks-container svg {
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
